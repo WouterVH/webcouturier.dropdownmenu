@@ -5,6 +5,8 @@
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     i18n_domain="webcouturier.dropdownmenu">
 
+    <include package="Products.CMFCore" file="permissions.zcml" />
+
     <browser:resource
         name="dropdown-menu.js"
         file="dropdown.js"

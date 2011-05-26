@@ -4,6 +4,10 @@ Changelog for webcouturier.dropdownmenu
 
 webcouturier.dropdownmenu 2.2 (unreleased)
 
+    - Add ``Products.CMFCore`` as an explicit dependency to fix zcml loading under
+      Zope 2.13.
+      [WouterVH]
+
     - Fixed handling of navigation root; drop-down menus will now honor
       the current navigation root and won't pull in content that is outside.
       [davidblewett]
